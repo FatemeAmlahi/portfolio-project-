@@ -1,3 +1,20 @@
-h1 {
-  color: brown;
+:root {
+  --main-font: "Poppins", sans-serif;
+  --scondary-font: "Playfair Display", serif;
+  --design-font: "Amatic SC", cursive;
+}
+header {
+  background: #e2f1fa;
+}
+.hero {
+  text-align: center;
+  font-family: var(--scondary-font);
+  padding: 100px;
+  padding-top: 140px;
+}
+.name {
+  font-size: 80px;
+}
+.bio {
+  font-size: 20px;
 }
