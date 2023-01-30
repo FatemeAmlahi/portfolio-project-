@@ -1,6 +1,6 @@
 :root {
   --main-font: "Poppins", sans-serif;
-  --scondary-font: "Playfair Display", serif;
+  --scandary-font: "Playfair Display", serif;
   --design-font: "Amatic SC", cursive;
 }
 header {
@@ -8,7 +8,7 @@ header {
 }
 .hero {
   text-align: center;
-  font-family: var(--scondary-font);
+  font-family: var(--scandary-font);
   padding: 100px;
   padding-top: 140px;
 }
