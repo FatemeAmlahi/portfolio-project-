@@ -32,7 +32,7 @@ header {
   font-size: 20px;
   color: white !important;
   background-color: var(--secondary-color) !important;
-  padding: 17px 37px;
+  padding: 0.8rem 1.5rem;
   border: solid var(--secondary-color);
   margin-right: 8px;
 }
@@ -42,7 +42,7 @@ header {
 }
 .github-link {
   border: solid var(--secondary-color);
-  padding: 17px 37px;
+  padding: 0.8rem 1.5rem;
   font-size: 20px;
   margin-left: 8px;
 }
