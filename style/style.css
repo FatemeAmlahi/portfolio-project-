@@ -8,6 +8,15 @@
 header {
   background: var(--primery-color);
 }
+h2 {
+  text-align: center;
+  font-family: var(--main-font) !important;
+  font-weight: bolder !important;
+  margin: 60px !important;
+}
+h3 {
+  font-family: var(--scondary-font) !important;
+}
 
 .hero {
   text-align: center;
@@ -23,7 +32,7 @@ header {
   font-size: 20px;
   margin-bottom: 100px;
 }
-.uni {
+.important {
   color: var(--secondary-color);
 }
 
@@ -48,4 +57,64 @@ header {
 }
 .github-link:hover {
   text-decoration: none;
+}
+.tools {
+  font-family: var(--main-font);
+}
+.demo {
+  text-decoration: none;
+  font-size: 14px;
+  color: white !important;
+  background-color: var(--secondary-color);
+  padding: 0.3rem 1.3rem;
+  border: solid var(--secondary-color);
+}
+.demo:hover {
+  text-decoration: none;
+  background-color: #1c5abd !important;
+}
+.git {
+  border: solid var(--secondary-color);
+  padding: 0.3rem 1.3rem;
+  font-size: 14px;
+}
+.git:hover {
+  text-decoration: none;
+}
+@media (max-width: 815px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    margin: 30px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .responsive {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 616px) {
+  h1 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+  .hero {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bio {
+    font-size: 16px;
+  }
 }
