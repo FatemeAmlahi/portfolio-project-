@@ -18,8 +18,16 @@ h3 {
   font-family: var(--scondary-font) !important;
 }
 footer {
-  text-align: center;
+  padding: 6px;
+  color: white;
   background-color: var(--primery-color);
+}
+.source {
+  color: white !important;
+}
+.source:hover {
+  text-decoration: none;
+  color: var(--secondary-color) !important;
 }
 .footerLink {
   color: white;
