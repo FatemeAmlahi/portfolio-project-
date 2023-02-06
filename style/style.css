@@ -17,6 +17,13 @@ h2 {
 h3 {
   font-family: var(--scondary-font) !important;
 }
+footer {
+  text-align: center;
+  background-color: var(--primery-color);
+}
+.footerLink {
+  color: white;
+}
 
 .hero {
   text-align: center;
